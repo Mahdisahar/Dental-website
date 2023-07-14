@@ -1,0 +1,41 @@
+.dental-info {
+	width: 30rem;
+	margin-left: 18rem;
+}
+
+@media screen and (max-width:1440px) {
+	.dental-info {
+		margin-left: 3rem;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.dental-info {
+		margin-left: 4rem;
+		width: 23rem;
+	}
+}
+@media screen and (max-width:768px) {
+	.dental-info {
+		margin: 2rem 0;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.dental-info {
+		margin: 2rem 1.5rem;
+	}
+}
+@media screen and (max-width:375px) {
+	.dental-info {
+		margin: 2rem 1rem;
+		width: 70%;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.dental-info {
+		margin-top: 2rem;
+	}
+}
+

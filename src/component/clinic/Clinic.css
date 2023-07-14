@@ -1,0 +1,185 @@
+
+.dental-clinic-section1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.dental-clinic-section1 #clinic {
+	width: 40rem;
+	height: 40rem;
+	position: relative;
+}
+
+.whole-dental-section {
+	display: flex;
+	flex-direction: row;
+}
+
+.dental-clinic-section1 #clinic2 {
+	width: 30rem;
+	height: 35rem;
+	position: absolute;
+	left: 20rem;
+	margin-top: 40px;
+}
+
+.dental-clinic-title {
+	display: flex;
+	flex-direction: column;
+	margin: 15rem 2rem 0 14rem ;
+	width: 30rem;
+}
+
+.dental-clinic-title h2 {
+	font-size: 30px;
+	font-family: var(--font-family);
+	color: var(--color-main);
+	margin-bottom: 2rem;
+}
+
+.dental-clinic-title p {
+	font-family: var(--font-family);
+	color: var(--color-main);
+	font-size: 18px;
+}
+
+.dental-clinic-title .btn {
+	padding: 1rem 2rem;
+	margin: 2rem 0;
+	width: 40%;
+	background-color: var(--color-main);
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-family: var(--font-family);
+	letter-spacing: 1px;
+	border-radius: 9px;
+}
+.dental-clinic-title .btn:hover {
+	background-color: var( --color-main1);
+}
+#clinic3 {
+	width: 20rem;
+	height: 35rem;
+	margin-top: 2rem;
+}
+
+@media screen and (max-width:1440px) {
+	.dental-clinic-section1 #clinic {
+		width: 25rem;
+		height: 40rem;
+	}
+	.dental-clinic-section1 #clinic2 {
+		left: 10rem;
+	}
+	.dental-clinic-title {
+		margin: 10rem 2rem 0 17rem ;
+		width: 20rem;
+	}
+	#clinic3 {
+		width: 18rem;
+		height: 35rem;
+		margin-top: 2rem;
+	}
+	.dental-clinic-title .btn {
+		padding: 1rem 2rem;
+		margin: 2rem 0;
+		width: 70%;
+	}	
+}
+
+@media screen and (max-width:1024px) {
+	.dental-clinic-section1 #clinic {
+		width: 20rem;
+		height: 40rem;
+	}
+	
+.dental-clinic-section1 #clinic2 {
+	width: 20rem;
+	left: 5rem;
+}
+	.dental-clinic-title {
+		margin: 10rem 0 0 7rem ;
+		width: 20rem;
+	}
+	#clinic3 {
+		width: 15rem;
+	}
+	.dental-clinic-title .btn {
+		padding: 1rem 2rem;
+		margin: 2rem 0;
+		width: 70%;
+	}	
+}
+
+@media screen and (max-width:768px) {
+	.whole-dental-section {
+		display: flex;
+		flex-direction: column;
+	}
+	.dental-clinic-section1 #clinic {
+		width: 100%;
+		height: 40rem;
+	}
+	
+.dental-clinic-section1 #clinic2 {
+	width: 90%;
+	left: 2rem;
+	height: 50rem;
+}
+	.dental-clinic-title {
+	margin: 15rem 0 0 10rem ;
+	text-align: center;
+		width:60%;
+	}
+	#clinic3 {
+		width: 90%;
+		margin-left: 3rem;
+		height: 50rem;
+	}
+	.dental-clinic-title .btn {
+		padding: 0.5rem 1rem;
+		margin: 2rem 10rem;
+		width: 30%;
+	}	
+}
+
+@media screen and (max-width:425px) {
+	.dental-clinic-section1 #clinic {
+		width: 100%;
+		height: 30rem;
+	}
+	
+.dental-clinic-section1 #clinic2 {
+	width: 90%;
+	left: 1.5rem;
+	height: 35rem;
+}
+	.dental-clinic-title {
+	margin: 10rem 0 0 5rem ;
+	text-align: center;
+	}
+	#clinic3 {
+		width: 90%;
+		margin-left: 1.5rem;
+		height: 35rem;
+	}
+	.dental-clinic-title .btn {
+		padding: 0.5rem 1rem;
+		margin: 2rem 3rem;
+		width: 60%;
+	}	
+}
+
+
+@media screen and (max-width:320px) {
+	.dental-clinic-title {
+	margin: 10rem 0 0 4rem ;
+	}
+	.dental-clinic-title .btn {
+		margin: 2rem 1rem;
+		width: 80%;
+	}	
+}
+

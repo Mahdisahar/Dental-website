@@ -1,0 +1,220 @@
+
+.dental-header {
+	display: flex;
+	flex-direction: row;
+}
+.dental-header-svg-imge {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.dental-header-svg-imge img {
+	width: 1000px;
+	height: 900px;
+	position: relative;
+	flex: 1;
+}
+
+.dental-header-image {
+	position: absolute;
+	top: 200px;
+} 
+.dental-header-image img {
+	width: 700px;
+	height: 700px;
+	border-radius: 50%;
+}
+
+.dental-header-contanier {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.dental-header-content {
+	flex: 2;
+	margin: 4rem 10rem;
+}
+
+.dental-header-content h1 {
+	font-family: var(--font-family);
+	color: var(--color-main);
+	line-height: 40px;
+	letter-spacing: 0.5rem;
+}
+.dental-header-content div {
+	width: 100%;
+	height: 20px;
+	color: var(--color-main);
+	margin-top: 3rem;
+	border: 1px solid var(--color-main);
+	background-color: var(--color-main);
+}
+.dental-health-how img {
+	margin-right: 1rem;
+}
+
+.dental-health-how h2 {
+	color: var(--color-main);
+	letter-spacing: 0.2rem;
+	font-family: var(--font-family);
+}
+
+ @media screen and (max-width:1440px) {
+	.dental-header-contanier {
+		flex-direction: row;
+		align-items:flex-start;
+	}
+	
+	.dental-header-svg-imge img {
+		height: 800px;
+	}
+	.dental-header-image img {
+		width: 600px;
+		height: 600px;
+		margin-top: 2rem;
+	}
+
+	.dental-header-content div {
+		width: 95%;
+	}
+	.dental-header-content {
+		margin: 6rem -10rem;
+	}
+	.dental-health-how {
+		margin-left: -10rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.dental-header-content h1{
+     font-size: 30px;
+	}
+} 
+ 
+@media screen and (max-width:1024px) {
+	.dental-header-svg-imge{
+		height: auto;
+		width: 50%;
+	}
+	.dental-header-svg-imge img {
+		height: 600px;
+	}
+	.dental-header-image img {
+		width: 400px;
+		height: 400px;
+		margin-top: 2rem;
+		margin-left: 2rem;
+	}
+	.dental-header-content {
+		margin: 6rem 0;
+	}
+	.dental-health-how {
+		margin-left: 0;
+		padding-bottom: 0.5rem;
+	} 
+
+	.dental-header-content h1{
+     font-size: 26px;
+	}
+} 
+
+@media screen and (max-width:768px) {
+	.dental-header-contanier {
+		flex-direction: column;
+	}
+	.dental-header-content {
+		margin: 2rem;
+	}
+	.dental-health-how {
+		margin-left: 4rem;
+		padding-bottom: 0.5rem;
+	}
+	.dental-header-image {
+		left: 4rem;
+		top: 12rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	.dental-header-content div {
+		width: 90%;
+		height: 10px;
+		margin-top: 1rem;
+		margin-left: 2rem;
+	}
+	.dental-header-content h1{
+     font-size: 28px;
+	 margin-left: 2rem;
+	}
+
+	.dental-header-svg-imge{
+		height: auto;
+		width: 50%;
+	}
+	.dental-header-svg-imge img {
+		height: 800px;
+	}
+
+	.dental-header-image img {
+		width: 550px;
+		height: 550px;
+		margin-left: 0;
+	}
+	.dental-health-how h2 {
+		font-size: 20px;
+	}
+} 
+
+@media screen and (max-width:425px) { 
+	.dental-header-svg-imge img {
+		height: 100%;
+	} 
+	div.dental-header-svg-imge {
+		height: 500px;
+	}
+	.dental-header-image img {
+		margin-left:-2rem;
+		width: 350px;
+		height: 350px;
+	}
+	.dental-header-content {
+		margin-top: 2rem ;
+		margin-left:1rem;
+		margin-right: 0;
+	}
+	.dental-header-content h1 {
+        font-size: 22px;
+		margin-left: 0;
+	
+	}
+	.dental-header-content div {
+		width: 95%;
+		margin-left: 0;
+	}
+	.dental-health-how {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.dental-header-image img{
+		width: 300px;
+		height: 300px;
+	}
+	.dental-header-content div {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.dental-header-image img{
+		width: 270px;
+		height: 270px;
+	}
+	.dental-header-content div {
+		width: 90%;
+	}
+}
+
+
+

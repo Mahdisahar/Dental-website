@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jost:wght@600&family=Kenia&family=Manrope:wght@500&display=swap');
+
+:root {
+	--font-family: 'Manrope', san-serif;
+	--color-bg: white;
+	 --color-main1: #1fd0f1;
+	--color-main: #00a8f3;
+	--color-second: #bceef7;
+	
+}

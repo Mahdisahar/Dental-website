@@ -1,0 +1,62 @@
+
+.dental-contact {
+	background-color: var(--color-second);
+	width: 100%;
+	height: 50rem;
+	position: relative;	
+}
+
+.dental-contact-container {
+	height: 30rem;
+	position: absolute;
+	background-color: var(--color-main);
+	top: 10rem;
+	width: 100%;
+}
+
+.dental-sub {
+	display: flex;
+	flex-direction: row;
+	margin: 5rem;
+}
+
+@media screen and (max-width:1024px) {
+	.dental-sub {
+		margin: 2rem 1rem;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.dental-sub {
+		flex-direction: column-reverse;
+		margin: 0;
+		}
+		.dental-contact {
+			height:70rem;
+			width: 100%;
+		}
+		.dental-contact-container {
+			height: 60rem;
+			width: 90%;
+		}
+}
+
+@media screen and (max-width:375px) {
+		.dental-contact-container {
+			height: 58rem;
+			width: 90%;
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

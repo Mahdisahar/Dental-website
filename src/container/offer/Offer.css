@@ -1,0 +1,26 @@
+
+.dental-offer-text p {
+	padding-right: 2rem;
+	
+}
+
+.dental-offer-dental_text p {
+	color: var(--color-main);
+	font-family: var(--font-family);
+	font-size: 18px;
+	padding-top: 1rem;
+	line-height: 30px;
+}
+/* 
+@media screen and (max-width:768px) {
+	.dental-offer {
+		width: 50%;
+	}
+} */
+
+@media screen and (max-width:425px) {
+	.dental-offer-dental_text {
+		 width: 100%;
+	}
+	
+}

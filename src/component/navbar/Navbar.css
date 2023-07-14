@@ -1,0 +1,138 @@
+.dental-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 4rem;	
+}
+
+.dental-navbar-links {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dental-navbar-links-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dental-navbar-links-logo img {
+	width: 100px;
+	height: 70px;
+	margin-left: 6rem;
+}
+
+.dental-navbar-links-logo h2 {
+	color: var(--color-main);
+	font-family: var(--font-family);
+	font-weight: 800;
+}
+
+.dental-navbar-links-container div {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.dental-navbar-links-container div p {
+	margin-right: 1rem;
+	font-size: 20px;
+	font-family: var(--font-family);
+	
+}
+
+.dental-navbar-links-container div p a {
+	color:var(--color-main);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.dental-navbar-menu {
+	margin-left: 1rem;
+	position: relative;
+	display: none;
+	z-index: 2;	
+}
+
+.dental-navbar-menu-container-scale-center {
+	background-color: var(--color-main);
+	padding: 2rem;
+	position: absolute;
+	width: 250px;
+	height: 450px;
+	top: 40px;
+	right: 0;
+	margin-top: 1rem;
+	box-shadow: 0 0 2px 1px rgba(0,0,0, 0.2);
+}
+
+.dental-navbar-menu-container-links div p a {
+	color: var(--color-bg);
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 25px;
+}
+.dental-navbar-menu-container-links div {
+	text-align: center;
+	
+}
+
+.dental-navbar-menu-container-links div p {
+	margin: 2.5rem;
+}
+
+@media screen and (max-width:1440px) {
+.dental-navbar-links-container {
+	margin-right: 6rem;
+}
+}
+
+@media screen and (max-width:1024px) {
+	.dental-navbar-links-container {
+		margin-right:5rem;
+	}
+	
+}
+@media screen and (max-width: 768px) {
+	.dental-navbar {
+		width: 100%;
+		justify-content: flex-start;
+	   }
+	.dental-navbar-links-logo img {
+			margin-left: 0.2rem;
+		}
+		.dental-navbar-links-logo h2 {
+			font-size: 18px;
+		}
+		.dental-navbar-links-container {
+			margin-right: 1rem;
+		}	
+	}
+
+@media screen and (max-width: 700px) {
+	.dental-navbar-links-container {
+		display: none;
+	}
+	.dental-navbar-menu {
+		display: block;
+	}
+	.dental-navbar {
+		padding: 2rem 4rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.dental-navbar {
+		padding: 2rem 3rem;
+	}
+	.dental-navbar-links-logo {
+		width: 90px;
+		height: 60px;
+	}	
+	.dental-navbar-links-logo h2 {
+		font-size: 17px;
+	}
+}
+
+

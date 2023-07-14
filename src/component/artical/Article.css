@@ -1,0 +1,33 @@
+div.artiacl-container {
+	margin-left: 10rem;
+}
+
+.dental-health-how div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.dental-health-how img {
+	margin-right: 1rem;
+}
+
+.dental-health-how h2 {
+	color: var(--color-main);
+	letter-spacing: 0.2rem;
+	font-family: var(--font-family);
+}
+
+@media screen and (max-width:1440px) {
+	div.artiacl-container {
+		margin-left: 0.2rem;
+	}
+	
+}
+
+@media screen and (max-width:425px) {
+	.artical-container-title h2 {
+		font-size: 18px;
+	}
+	
+}

@@ -1,0 +1,108 @@
+.dental-contact-form {
+	border: 1px solid black;
+	width: 40rem;
+	height: 39rem;
+	margin-top: -10rem;
+	background-color: white;
+	box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+.dental-contact-form-container {
+	padding: 3rem 5rem;
+}
+.dental-contact-form-container h1 {
+ margin-bottom: 1rem;
+ font-family: var(--font-family);
+ letter-spacing: 0.2rem;
+ margin-left: 1rem;
+ font-size: 35px;
+}
+.subform {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+.subform label {
+	font-size: 18px;
+	margin-bottom: 0.5rem;
+	font-family: var(--font-family);
+}
+.subform input {
+	height: 2rem;
+	border-radius: 4px;
+	font-family: var(--font-family);
+	padding-left: 1rem;
+	border: 1px solid ;
+	width: 100%;
+}
+.subform textarea {
+	width: 100%;
+	height: 10rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+
+.btn-form button {
+margin-left: 1rem;
+padding: 0.5rem 1rem;
+border-radius: 6px;
+font-family: var(--font-family);
+font-size: 15px;
+border:1px solid black;
+}
+.btn-form button:hover {
+	background-color: var(--color-main);
+}
+
+@media screen and (max-width:1024px) {
+	.dental-contact-form {
+		width: 30rem;
+		height: 37rem;
+		margin-top: -5rem;
+	}
+	.dental-contact-form-container {
+		padding: 2rem 1rem;
+	}
+	.dental-contact-form-container h1 {
+		font-size: 30px;
+	   }
+}
+@media screen and (max-width:768px) {
+	.dental-contact-form {
+		margin-right: 0.5rem;
+
+	}
+	.dental-contact-form-container {
+		padding: 2rem 1rem;
+	}
+	.dental-contact-form-container h1 {
+		font-size: 30px;
+	   }
+}
+
+@media screen and (max-width:425px) {
+	.dental-contact-form {
+		width: 100%;
+		height: 35rem;
+		margin-top: -5rem;
+		margin-left: 1.5rem;
+	}
+	.dental-contact-form-container h1 {
+		font-size: 29px;
+	   }
+}
+
+
+@media screen and (max-width:375px) {
+	.dental-contact-form-container h1 {
+		font-size: 25px;
+	   }
+}
+
+@media screen and (max-width:320px) {
+	.dental-contact-form {
+		margin-top: -5rem;
+		margin-left: 1rem;
+	}
+}
+

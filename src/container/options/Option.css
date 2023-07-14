@@ -1,0 +1,37 @@
+.dental-option {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10rem;
+	text-align: center;
+	align-items: center;
+}
+.dental-option-text p {
+	color: var(--color-main);
+	font-family: var(--font-family);
+}
+@media screen and (max-width:1440px) {
+	.dental-option {  
+		margin-left: 4rem;
+		text-align: left;
+	}
+	
+}
+@media screen and (max-width:1024px) {
+	.dental-option {
+		margin-left: 1rem;
+		text-align: left;
+	}
+	
+}
+
+@media screen and (max-width: 425px) {
+  .dental-option-text {
+	font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+	.dental-option-text {
+	  font-size: 13px;
+	}
+  }
